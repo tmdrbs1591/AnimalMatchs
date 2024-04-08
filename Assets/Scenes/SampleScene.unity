@@ -221,6 +221,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cf7b639102531f41b441aefbf5fa2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardRenderer: {fileID: 234258137}
+  animalSprite: {fileID: 2033056436, guid: 3d074f777938fd74b9418e2928e68b9b, type: 3}
+  backSprite: {fileID: -856972093, guid: ecceddf8a53850941bbb3defc1d22534, type: 3}
 --- !u!61 &234258140
 BoxCollider2D:
   m_ObjectHideFlags: 0
