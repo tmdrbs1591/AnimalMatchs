@@ -17,16 +17,16 @@ public class Card : MonoBehaviour
     private bool isFlipped = false;
     private bool isFlipping = false;
 
-    void Start()
+    public int cardID;
+
+    public void SetCardID(int id)
     {
-        
+        cardID = id;
     }
 
-  
-    void Update()
-    {
-        
-    }
+    public void SetAnimalSprite(Sprite sprite) { 
+        animalSprite = sprite;
+        }
     public void FlipCard()
     {
         isFlipping = true;

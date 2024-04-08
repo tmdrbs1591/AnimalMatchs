@@ -260,3 +260,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardPrefab: {fileID: 319318286145858116, guid: 248a151466b461f499c676acbb264659, type: 3}
+  cardSprites:
+  - {fileID: 2021047101, guid: 3d074f777938fd74b9418e2928e68b9b, type: 3}
+  - {fileID: 270531077, guid: 3d074f777938fd74b9418e2928e68b9b, type: 3}
+  - {fileID: -411234293, guid: 3d074f777938fd74b9418e2928e68b9b, type: 3}
+  - {fileID: -818471648, guid: 3d074f777938fd74b9418e2928e68b9b, type: 3}
+  - {fileID: 302789356, guid: 3d074f777938fd74b9418e2928e68b9b, type: 3}
+  - {fileID: 2033056436, guid: 3d074f777938fd74b9418e2928e68b9b, type: 3}
+  - {fileID: -2010340270, guid: f2f24f4ea34b039479d330d7122904bc, type: 3}
+  - {fileID: -86960063, guid: f2f24f4ea34b039479d330d7122904bc, type: 3}
+  - {fileID: 308909161, guid: f2f24f4ea34b039479d330d7122904bc, type: 3}
+  - {fileID: 737823454, guid: f2f24f4ea34b039479d330d7122904bc, type: 3}

@@ -7,11 +7,25 @@ public class Board : MonoBehaviour
     [SerializeField]
     private GameObject cardPrefab;
 
+    [SerializeField]
+    private Sprite[] cardSprites;
+
+    private List<int> cardIDList = new List<int>();
+
+
     void Start()
     {
+        GenerateCardID();
         InitBoard();
     }
-
+    void GenerateCardID()
+    {
+        for (int i = 0; i < cardSprites.Length; i++)
+        {
+            cardIDList.Add(i);
+            cardIDList.Add(i);
+        }
+    }
     void InitBoard()
     {
         float spaceY = 1.8f;
@@ -21,9 +35,11 @@ public class Board : MonoBehaviour
         //0
         //1
         //2
-
+            
         int rowCount = 5; //세로 카드개수
         int columnCount = 4; //가로 카드개수
+
+        int cardIndex = 0;
 
         for (int row = 0; row < rowCount; row++)
         {
@@ -33,7 +49,13 @@ public class Board : MonoBehaviour
                 float posX = (col - (int)(columnCount / 2)) * spaceX + (spaceX / 2);
 
                 Vector3 pos = new Vector3(posX, posY, 0f);
-                Instantiate(cardPrefab, pos, Quaternion.identity);
+               GameObject cardObject =  Instantiate(cardPrefab, pos, Quaternion.identity);
+                Card card = cardObject.GetComponent<Card>();
+                int cardID = cardIDList[cardIndex++];
+                card.SetCardID(cardID);
+                card.SetAnimalSprite(cardSprites[cardID]);
+
+              
             }
         }
     }
