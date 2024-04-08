@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 37038-O0ZUKL_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 860
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948e0a89d03500846aede446a27ddbfe
+      internalID: -154851764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 37038-O0ZUKL_1
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 860
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767ed217d19deca4a9e97cdd7a326940
+      internalID: -1861215293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 37038-O0ZUKL_2
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 860
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbe552310c32dc4fb9004f46a94f417
+      internalID: 257078077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 37038-O0ZUKL_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 195
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05af2b148f4852a4585d6a8caa700b44
+      internalID: -856972093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 37038-O0ZUKL_4
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 195
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07834c8eb593bd4793e493efe5b2e7a
+      internalID: 1506450726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 37038-O0ZUKL_5
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 195
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2311ef1d3cdba342bbe660f9b195207
+      internalID: 1407116672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +271,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      37038-O0ZUKL_0: -154851764
+      37038-O0ZUKL_1: -1861215293
+      37038-O0ZUKL_2: 257078077
+      37038-O0ZUKL_3: -856972093
+      37038-O0ZUKL_4: 1506450726
+      37038-O0ZUKL_5: 1407116672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
