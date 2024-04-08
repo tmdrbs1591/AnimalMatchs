@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Card : MonoBehaviour
 {
+    [SerializeField]
+    private SpriteRenderer cardRenderer;
+
+    [SerializeField]
+    private Sprite animalSprite; // 카드의 앞면
 
     void Start()
     {
@@ -15,8 +20,15 @@ public class Card : MonoBehaviour
     {
         
     }
+    public void FlipCard()
+    {
+        cardRenderer.sprite = animalSprite;
+
+    }
+
     void OnMouseDown()
     {
-        Debug.Log("MouseDown");
+        FlipCard();
     }
+
 }

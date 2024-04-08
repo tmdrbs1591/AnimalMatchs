@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 138920-OTFU5B-604_0
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1105
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4c287b246b2cd42b407064f242e7c3
+      internalID: 2021047101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 138920-OTFU5B-604_1
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1105
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc7ccdb9c9d7a9418e948e126fc1896
+      internalID: 270531077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 138920-OTFU5B-604_2
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1105
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17e838ff0ca0c14dae48c5229224f4f
+      internalID: -411234293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 138920-OTFU5B-604_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 285
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfd143db5baef946b10fe5daaa65f75
+      internalID: -818471648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 138920-OTFU5B-604_4
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 285
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc974eeac6baf240b574f10cfc7035c
+      internalID: 302789356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 138920-OTFU5B-604_5
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 285
+        width: 450
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96538a7f5e4335c41a6e31f69a13fe41
+      internalID: 2033056436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +271,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      138920-OTFU5B-604_0: 2021047101
+      138920-OTFU5B-604_1: 270531077
+      138920-OTFU5B-604_2: -411234293
+      138920-OTFU5B-604_3: -818471648
+      138920-OTFU5B-604_4: 302789356
+      138920-OTFU5B-604_5: 2033056436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
