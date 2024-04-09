@@ -60,9 +60,9 @@ public class Card : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (!isFlipping)
-             FlipCard();
-        
+        if (!isFlipping) {
+            GameManager.instance.CardClicked(this);
+        }
     }
 
 }

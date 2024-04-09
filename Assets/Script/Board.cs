@@ -11,6 +11,7 @@ public class Board : MonoBehaviour
     private Sprite[] cardSprites;
 
     private List<int> cardIDList = new List<int>();
+    private List<Card> cardList = new List<Card>();
 
 
     void Start()
@@ -66,9 +67,12 @@ public class Board : MonoBehaviour
                 int cardID = cardIDList[cardIndex++];
                 card.SetCardID(cardID);
                 card.SetAnimalSprite(cardSprites[cardID]);
-
-              
+                cardList.Add(card);
             }
         }
+    }
+    public List<Card> GetCards()
+    {
+        return cardList;
     }
 }
