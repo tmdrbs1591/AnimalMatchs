@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +11,11 @@ public class GameManager : MonoBehaviour
     private Card flippedcard;
 
     private bool isFlipping = false;
+
+    [SerializeField] private Slider timeoutSlider;
+    [SerializeField] TextMeshProUGUI timeoutText;
+    [SerializeField] private float timeLimit = 60f;
+    private float currentTime;
 
     void Awake()
     {
@@ -22,8 +29,16 @@ public class GameManager : MonoBehaviour
         Board board = FindObjectOfType<Board>();
        allCards =  board.GetCards();
 
+        currentTime = timeLimit;
+
+        SetcurrentTimeText();
         StartCoroutine(FlipAllCardsRoutine());
 
+    }
+    void SetcurrentTimeText()   
+    {
+        int timeSec = Mathf.CeilToInt(currentTime);
+        timeoutText.SetText(timeSec.ToString());
     }
     IEnumerator FlipAllCardsRoutine()
     {
@@ -35,6 +50,19 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         isFlipping = false;
 
+        yield return StartCoroutine(CountDownTimerRoutine());
+    }
+    IEnumerator CountDownTimerRoutine()
+    {
+        while(currentTime > 0)
+        {
+            currentTime -= Time.deltaTime;
+            timeoutSlider.value = currentTime/timeLimit;
+            SetcurrentTimeText();
+            yield return null;
+        }
+
+        GameOver(false);    
     }
     void FlipAllCards()
     {
@@ -83,5 +111,17 @@ public class GameManager : MonoBehaviour
         }
         isFlipping = false;
         flippedcard = null;
+    }
+    void GameOver(bool succes)
+    {
+        if (succes)
+        {
+            Debug.Log("d");
+        }
+        else
+        {
+            Debug.Log("over");
+
+        }
     }
 }
